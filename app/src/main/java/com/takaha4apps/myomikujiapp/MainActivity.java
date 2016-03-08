@@ -145,6 +145,8 @@ public class MainActivity extends AppCompatActivity {
         int tmp = random.nextInt(mSoundId.length);
         //ランダムで選択音を鳴らす
         mSoundPool.play(mSoundId[tmp], 1.0f, 1.0f, 0, 0, 1.0f);
+
+        //
     }
 
     //フォントタイプ指定
